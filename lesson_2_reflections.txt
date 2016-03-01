@@ -16,3 +16,11 @@ Or when several people are working on a project, they could use branches in orde
 
 How do the diagrams help you visualize the branch structure?
 Helps to see what feature is on what branch, and what is not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a merged branch. Both parents are accessible within the same branch.
+We represent the diagram this way to see the old branch, and the fact that if we checkout to one branch, we may not have all the changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatical merging make you gain time.
+This could lead to conflicts, but git pinpoints them so you can easily find them.
