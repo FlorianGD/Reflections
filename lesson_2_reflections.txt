@@ -4,3 +4,15 @@ But no commit is made automatically.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is an intermediate status between the working directory and the repository. It allows us to make commit to the files that we want to, and not necessarily to everything at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Is is possible to compare the modifications in the staging area and the working directory by using git diff (no argument).
+And it is possible to double check by comparing the staging area and the latest commit by using git diff --staged.
+When running those lines, it is possible to check thay only one logical change has been made.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful when developing a new feature we are not sure when we want to include.
+Or when several people are working on a project, they could use branches in order not to interfere with each other until they are satisfied with the result.
+
+How do the diagrams help you visualize the branch structure?
+Helps to see what feature is on what branch, and what is not.
