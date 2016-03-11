@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+It could come in useful for shared projects with other persons.
+Ti could also be handy if I have problems with my computer.
+If it is synched online, I can keep on working and get it back later when it's fixed.
